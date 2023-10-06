@@ -6,40 +6,41 @@ Deep learning (DL) is a family of techniques widely used in multiple fields with
 
 The tutor of this school is Dr Francisco Eduardo Sanchez Karhunen (Universidad de Sevilla).
 
-## Contents
+**Summary of Contents**
 
-    Session 1: Deep Learning fundamentals
-    Session 2: Convolutional Neural Networks fundamentals
-    Session 3: Practical considerations in real-world CNNs
-    Session 4: hands-on
+- Session 1: Deep Learning fundamentals
+- Session 2: Convolutional Neural Networks fundamentals
+- Session 3: Practical considerations in real-world CNNs
+- Session 4: hands-on
 
-## Agenda
+# Agenda
 
-### Session 1: Thursday, November, 16 (9:30 → 12:00)
-**Deep Learning fundamentals**
+## Thursday, November 16
+
+### Session 1 (9:30 → 12:00) Deep Learning fundamentals
 
 Roots of deep learning techniques. Reasons for layer stacking. Role of weights and activation functions. Layer as a map between representation spaces. Model parameters. Basic structure for classification tasks. Network training as an optimization problem. Weight initialization techniques. Typical loss functions and optimizers. Learning-rate scheduling.
 
 Hands-on lab: Build from scratch a basic multilayer neural network using the Tensorflow-2 library. Sequential mode of layer stacking. Model training to tackle a classical basic image classification problem.
 
-### Session 2: Thursday, November, 16 (14:00 → 18:30)
-**Convolutional Neural Networks fundamentals**
+### Session 2 (14:00 → 18:30) Convolutional Neural Networks fundamentals
 
 Drawbacks of classical multilayer networks in image classification tasks. Human brain image handling. Convolutional layers: padding and stride. Types of pooling layer. Kernels for feature map extraction. Kernel stacking. CNNs as an extension of classical stacked layer models. Top layers in CNNs.
 
 Hands-on lab. Build from scratch a basic CNN for image classification using the Galaxy10 dataset.
 
-### Session 3: Friday, November 17 (9:30 → 13:00)
-**Practical considerations in real-world CNNs**
+## Friday, November 17
+### Session 3 (9:30 → 13:00) Practical considerations in real-world CNNs
 
 Overfitting in CNNs. Techniques for overfitting reduction: data augmentation and drop-out. Types of data augmentation. Drop-out rates. Transfer learning: concept and usage. Top Pre-Trained models for image classification. Handling large image datasets: ImageDataGenerators.
 Hands-on lab: Use of ImageDataGenerators combined with realistic folder structures in image classification problems. Inclusion of data augmentation in our preprocessing pipelines. Add drop-out layers to the CNN design in session 2. Use of transfer learning in a real situation.
 
-### Session 4: Friday, November 17 (15:00 → 18:30)
-**Hands-on**
+### Session 4 (15:00 → 18:30) Hands-on
+
+Practical application
 
 
-## Organizing Committee 
+# Organizing Committee 
 
 - Rainer Schödel (Chair), IAA-CSIC, Spain 
 - Laura Darriba, IAA-CSIC, Spain  
