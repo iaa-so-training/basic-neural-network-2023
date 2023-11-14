@@ -12,7 +12,6 @@ The tutor of this school is Dr Francisco Eduardo Sanchez Karhunen (Universidad d
 - Session 1: Deep Learning fundamentals
 - Session 2: Convolutional Neural Networks fundamentals
 - Session 3: Practical considerations in real-world CNNs
-- Session 4: hands-on
 
 # Agenda
 
