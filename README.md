@@ -1,4 +1,5 @@
 # Severo Ochoa Basic Neural Networks 2023
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/basic-neural-network-2023/HEAD)
 
 SO Basics of Neural Networks 2023 school at the IAA-CSIC
 
@@ -35,9 +36,35 @@ Hands-on lab. Build from scratch a basic CNN for image classification using the 
 Overfitting in CNNs. Techniques for overfitting reduction: data augmentation and drop-out. Types of data augmentation. Drop-out rates. Transfer learning: concept and usage. Top Pre-Trained models for image classification. Handling large image datasets: ImageDataGenerators.
 Hands-on lab: Use of ImageDataGenerators combined with realistic folder structures in image classification problems. Inclusion of data augmentation in our preprocessing pipelines. Add drop-out layers to the CNN design in session 2. Use of transfer learning in a real situation.
 
-### Session 4 (15:00 → 18:30) Hands-on
+# Installation instructions
+You can manage the instalation with `conda` following these steps:
 
-Practical application
+1. Make sure you have conda/mamba installed. You can follow the instructions in [Installing miniconda](https://droplets-spsrc.readthedocs.io/conda/#installing-miniconda).
+
+2. In a terminal, go to your working directory and clone this repository:
+
+```
+git clone https://github.com/iaa-so-training/basic-neural-network-2023.git
+cd basic-neural-network-2023
+```
+
+3. Install the dependencies for the tutorials (replace `mamba` with `conda` if you don't have mamba installed):
+```
+mamba env create -f environment.yml
+```
+
+4. Execute the tutorials
+
+You need to activate the conda environment and initialize a Jupyter Lab session:
+
+```
+conda activate iaa_nn
+jupyter lab
+```
+
+Once everything is installed, you just need to run step 4 to run the tutorials.
+
+You can also launch the tutorials without installation in the free myBinder service by clicking here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/basic-neural-network-2023/HEAD). Note that this is a free service with limited resources, useful to execute and modify the tutorials live, but computationally expensive steps may not be possible.
 
 
 # Organizing Committee 
