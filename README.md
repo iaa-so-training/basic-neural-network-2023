@@ -35,6 +35,8 @@ Hands-on lab. Build from scratch a basic CNN for image classification using the 
 Overfitting in CNNs. Techniques for overfitting reduction: data augmentation and drop-out. Types of data augmentation. Drop-out rates. Transfer learning: concept and usage. Top Pre-Trained models for image classification. Handling large image datasets: ImageDataGenerators.
 Hands-on lab: Use of ImageDataGenerators combined with realistic folder structures in image classification problems. Inclusion of data augmentation in our preprocessing pipelines. Add drop-out layers to the CNN design in session 2. Use of transfer learning in a real situation.
 
+There will be coffee breaks available for all participants during the sessions.
+
 # Installation instructions
 You can manage the instalation with `conda` following these steps:
 
